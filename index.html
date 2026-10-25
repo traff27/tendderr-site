@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tendderr | We find the work. We help you win it.</title>
+  <meta name="description" content="We find the work. We help you win it. Tendderr helps small and mid-sized contractors in Yorkshire and neighbouring regions find suitable public-sector contracts, decide what is worth bidding for, and prepare tender submissions for an agreed fixed fee.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Icon sprite: hand-made, decorative only -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-check-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 3v4h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 14l2 2 4-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pen-doc" viewBox="0 0 24 24"><path d="M5 3h9l4 4v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M5 3v18h7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 9h6M8 12.5h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M14.5 21l.6-2.6 4.8-4.8 2 2-4.8 4.8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="1.3" fill="currentColor"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M9 15l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 10.2l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.4 1.3.5-2.6-1.9-1.8 2.6-.4z" fill="currentColor"/></symbol>
+    <symbol id="i-spray" viewBox="0 0 24 24"><path d="M8 10h6v11H8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 10V7h4v3M13 7.5h3l1-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M19 3.5v.1M21 5.5v.1M19.5 7.5v.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 15-14-1 10-6 15-14 15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M5 19l8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.5 4a4.5 4.5 0 0 0-4.2 6.1L4 16.4 7.6 20l6.3-6.3A4.5 4.5 0 0 0 20 9.5l-2.8 2.8-3.2-.8-.8-3.2L16 5.5A4.5 4.5 0 0 0 14.5 4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-brick" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 9.7h18M3 14.3h18M9 5v4.7M15 5v4.7M12 9.7v4.6M6 9.7v4.6M18 9.7v4.6M9 14.3V19M15 14.3V19" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V5l8-2v18M12 8h8v13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M7 8h2M7 11.5h2M7 15h2M15 11.5h2M15 15h2M2.5 21h19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3" fill="currentColor"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.8 6.5l8.2 6.5 8.2-6.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="index.html" aria-label="Tendderr home">Tendderr<span aria-hidden="true">.</span></a>
+      <a class="header-link" href="mailto:hello@tendderr.com"><svg class="ico-inline" aria-hidden="true"><use href="#i-mail"/></svg><span>hello@tendderr.com</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Public-sector tenders for local contractors</p>
+          <h1 id="hero-title" class="tagline"><span>We find the work.</span> <span>We help you win it.</span></h1>
+          <p class="hero-sub">Find the council and public contracts worth bidding for, and put in a stronger bid.</p>
+          <p class="lead">Tendderr is an independent service for small and mid-sized contractors in Yorkshire and neighbouring regions. We find suitable public-sector opportunities for your kind of work, help you decide which ones are worth your time, and can prepare the tender submission for you.</p>
+          <div class="cta-row">
+            <a class="btn" href="mailto:hello@tendderr.com">Email hello@tendderr.com</a>
+            <p class="cta-note">Speak to Mark Hutchinson. No forms, no sign-up.</p>
+          </div>
+        </div>
+        <div class="hero-art">
+          <!-- Stylised tender notice illustration (decorative) -->
+          <svg viewBox="0 0 420 360" role="img" aria-labelledby="hero-art-title">
+            <title id="hero-art-title">Illustration: a contract notice with a tick, a calendar showing a closing date, and a location pin</title>
+            <defs>
+              <linearGradient id="g-paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef2f8"/></linearGradient>
+            </defs>
+            <circle cx="210" cy="185" r="160" fill="#1d3766"/>
+            <circle cx="210" cy="185" r="118" fill="none" stroke="#2c4a80" stroke-width="2" stroke-dasharray="4 8"/>
+            <!-- back sheet -->
+            <rect x="128" y="62" width="170" height="220" rx="10" fill="#c9d4e6" transform="rotate(-7 213 172)"/>
+            <!-- main sheet -->
+            <g transform="rotate(3 213 172)">
+              <rect x="128" y="58" width="176" height="232" rx="10" fill="url(#g-paper)"/>
+              <rect x="128" y="58" width="176" height="40" rx="10" fill="#e0a526"/>
+              <rect x="128" y="86" width="176" height="12" fill="#e0a526"/>
+              <rect x="146" y="72" width="88" height="10" rx="5" fill="#14284b"/>
+              <rect x="146" y="116" width="138" height="8" rx="4" fill="#9fb0cb"/>
+              <rect x="146" y="134" width="120" height="8" rx="4" fill="#c3cee0"/>
+              <rect x="146" y="152" width="130" height="8" rx="4" fill="#c3cee0"/>
+              <rect x="146" y="176" width="64" height="8" rx="4" fill="#9fb0cb"/>
+              <rect x="146" y="194" width="110" height="8" rx="4" fill="#c3cee0"/>
+              <rect x="146" y="212" width="96" height="8" rx="4" fill="#c3cee0"/>
+              <rect x="146" y="244" width="70" height="24" rx="6" fill="#14284b"/>
+            </g>
+            <!-- tick badge -->
+            <circle cx="300" cy="248" r="38" fill="#1f8a5b" stroke="#ffffff" stroke-width="5"/>
+            <path d="M282 249l12 12 22-25" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <!-- calendar -->
+            <g transform="translate(62 96)">
+              <rect width="78" height="74" rx="10" fill="#ffffff" stroke="#14284b" stroke-width="3"/>
+              <rect width="78" height="22" rx="10" fill="#14284b"/>
+              <rect y="12" width="78" height="10" fill="#14284b"/>
+              <rect x="18" y="-8" width="6" height="16" rx="3" fill="#e0a526"/>
+              <rect x="54" y="-8" width="6" height="16" rx="3" fill="#e0a526"/>
+              <g fill="#c3cee0"><rect x="12" y="32" width="12" height="10" rx="2"/><rect x="33" y="32" width="12" height="10" rx="2"/><rect x="54" y="32" width="12" height="10" rx="2"/><rect x="12" y="50" width="12" height="10" rx="2"/><rect x="33" y="50" width="12" height="10" rx="2"/></g>
+              <rect x="52" y="48" width="16" height="14" rx="3" fill="#e0a526"/>
+            </g>
+            <!-- pin -->
+            <g transform="translate(300 60)">
+              <path d="M28 0C12.5 0 0 12.3 0 27.5 0 48 28 74 28 74s28-26 28-46.5C56 12.3 43.5 0 28 0z" fill="#e0a526"/>
+              <circle cx="28" cy="27" r="10" fill="#14284b"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="offer-title">
+      <div class="wrap">
+        <h2 id="offer-title">What we offer</h2>
+        <p class="section-intro">Two things are free and carry no obligation. Bid preparation is paid, at a fixed fee we agree with you before any work starts.</p>
+        <div class="offer-grid">
+          <article class="card">
+            <div class="card-top"><span class="icon-tile" aria-hidden="true"><svg><use href="#i-bell"/></svg></span><span class="tag">Free</span></div>
+            <h3>A personalised tender alert</h3>
+            <p>Tell us what work you do and where. We'll send you public-sector opportunities that fit, so you're not trawling procurement portals yourself.</p>
+          </article>
+          <article class="card">
+            <div class="card-top"><span class="icon-tile" aria-hidden="true"><svg><use href="#i-check-doc"/></svg></span><span class="tag">Free</span></div>
+            <h3>A brief initial suitability check</h3>
+            <p>Found an opportunity, or spotted one in your alert? We'll take a quick look at it and give you a straight answer on whether it's worth bidding for.</p>
+          </article>
+          <article class="card">
+            <div class="card-top"><span class="icon-tile navy" aria-hidden="true"><svg><use href="#i-pen-doc"/></svg></span><span class="tag fee">Fixed fee</span></div>
+            <h3>Professional bid preparation</h3>
+            <p>If you decide to go for it, we'll prepare your tender submission with you for an agreed fixed fee. Fees are quoted per opportunity, so you know the cost up front.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-soft" aria-labelledby="how-title">
+      <div class="wrap">
+        <h2 id="how-title">How it works</h2>
+        <p class="section-intro">Simple steps, and you decide at each one whether to carry on.</p>
+        <ol class="timeline">
+          <li>
+            <div class="tl-marker" aria-hidden="true"><svg><use href="#i-bell"/></svg></div>
+            <div class="tl-body">
+              <p class="tl-step">Step 1 · Free</p>
+              <h3>Get your tender alert</h3>
+              <p>Email us with the type of work you do and the areas you cover. We set up a free alert matched to your business.</p>
+            </div>
+          </li>
+          <li>
+            <div class="tl-marker" aria-hidden="true"><svg><use href="#i-check-doc"/></svg></div>
+            <div class="tl-body">
+              <p class="tl-step">Step 2 · Free</p>
+              <h3>Check it's worth bidding</h3>
+              <p>When an opportunity catches your eye, send it over. We'll give you a free, brief initial suitability check: is it a good fit, and is it worth the effort?</p>
+            </div>
+          </li>
+          <li>
+            <div class="tl-marker" aria-hidden="true"><svg><use href="#i-pen-doc"/></svg></div>
+            <div class="tl-body">
+              <p class="tl-step">Step 3 · Fixed fee</p>
+              <h3>Bid for a fixed fee</h3>
+              <p>If you want to go ahead, we agree a fixed fee for that opportunity and prepare the bid with you, working to the buyer’s deadline.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section aria-labelledby="why-title">
+      <div class="wrap">
+        <h2 id="why-title">Why it matters</h2>
+        <p class="section-intro">Public-sector work can be steady and well run, but finding it and bidding for it takes time most small firms don't have.</p>
+        <div class="why-grid">
+          <div class="why-item">
+            <span class="icon-round" aria-hidden="true"><svg><use href="#i-target"/></svg></span>
+            <h3>The right contracts</h3>
+            <p>Spend your time on opportunities that suit your size, your skills and your patch, not on ones you were never likely to win.</p>
+          </div>
+          <div class="why-item">
+            <span class="icon-round" aria-hidden="true"><svg><use href="#i-calendar"/></svg></span>
+            <h3>No missed deadlines</h3>
+            <p>Hear about suitable opportunities in good time, so you're not finding out about them after the closing date.</p>
+          </div>
+          <div class="why-item">
+            <span class="icon-round" aria-hidden="true"><svg><use href="#i-star-doc"/></svg></span>
+            <h3>Better bids</h3>
+            <p>A clear, well-organised submission that answers what the buyer has actually asked for, written in plain English.</p>
+          </div>
+        </div>
+        <figure class="photo">
+          <picture>
+            <source type="image/webp" srcset="civic-grounds-640.webp 640w, civic-grounds-1024.webp 1024w" sizes="(min-width: 1100px) 1040px, 100vw">
+            <img src="civic-grounds-1024.jpg" width="1024" height="576" loading="lazy" decoding="async" alt="A well-kept public park in front of a stone civic building, with striped lawns, trimmed hedges and a plain white maintenance van on the path.">
+          </picture>
+          <figcaption>Grounds, cleaning, repairs and upkeep: everyday work that councils, schools and other public bodies buy in. (Illustrative image.)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-soft numbers" aria-labelledby="numbers-title">
+      <div class="wrap">
+        <h2 id="numbers-title">Public sector work in numbers</h2>
+        <p class="section-intro">Published figures about public buying in general. They are not Tendderr results and say nothing about any one firm's chances.</p>
+
+        <div class="stat-grid">
+          <div class="stat">
+            <p class="stat-figure">£385bn</p>
+            <p class="stat-label">spent through public procurement every year</p>
+            <p class="source">Source: <a href="https://www.gov.uk/government/consultations/public-procurement-growing-british-industry-jobs-and-skills-consultation-on-further-reforms-to-public-procurement/outcome/public-procurement-growing-british-industry-jobs-and-skills-government-response-to-consultation-html">Cabinet Office, GOV.UK</a> (2026)</p>
+          </div>
+          <div class="stat">
+            <p class="stat-figure">24 Feb 2025</p>
+            <p class="stat-label">the Procurement Act 2023 came into force, replacing the previous public procurement rules</p>
+            <p class="source">Source: <a href="https://www.gov.uk/government/news/new-public-procurement-rules-to-drive-growth-opportunities-for-small-businesses-and-exclude-suppliers-that-fail-to-deliver">Cabinet Office, GOV.UK</a> (2025)</p>
+          </div>
+          <div class="stat">
+            <p class="stat-figure">30 days</p>
+            <p class="stat-label">payment terms now required for all public sector contracts</p>
+            <p class="source">Source: <a href="https://www.gov.uk/government/news/new-public-procurement-rules-to-drive-growth-opportunities-for-small-businesses-and-exclude-suppliers-that-fail-to-deliver">Cabinet Office, GOV.UK</a> (2025)</p>
+          </div>
+          <div class="stat">
+            <p class="stat-figure">£30,000</p>
+            <p class="stat-label">or more (inc. VAT): if a council advertises a contract of this value, it must first publish it on the government's Find a Tender service (£12,000 for central government)</p>
+            <p class="source">Source: <a href="https://www.legislation.gov.uk/ukpga/2023/54/section/87">Procurement Act 2023, s.87</a>; <a href="https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-below-threshold-contracts-html">GOV.UK guidance</a> (2025)</p>
+          </div>
+        </div>
+
+        <div class="chart-grid">
+          <figure class="chart">
+            <figcaption>
+              <h3>Who buys most from small firms?</h3>
+              <p>Share of direct procurement spend that went to SMEs, by type of public buyer, England, 2024</p>
+            </figcaption>
+            <ul class="bars" role="list">
+              <li><span class="bar-label">Local government</span><span class="bar-track"><span class="bar-fill accent" style="--v:35%"></span></span><span class="bar-value">35%</span></li>
+              <li><span class="bar-label">NHS</span><span class="bar-track"><span class="bar-fill" style="--v:19%"></span></span><span class="bar-value">19%</span></li>
+              <li><span class="bar-label">Central government</span><span class="bar-track"><span class="bar-fill" style="--v:11%"></span></span><span class="bar-value">11%</span></li>
+            </ul>
+            <p class="chart-note">In cash terms, local government spent £28.1bn directly with SMEs in 2024. Bars are drawn to a 0–100% scale.</p>
+            <p class="source">Source: <a href="https://www.britishchambers.org.uk/news/2025/05/procurement-act-must-quickly-deliver-for-smes/">British Chambers of Commerce &amp; Tussell, SME Procurement Tracker 2025</a>, analysis of official published spend data (2024 figures)</p>
+          </figure>
+
+          <figure class="chart">
+            <figcaption>
+              <h3>Councils spend locally</h3>
+              <p>How local government procurement spend in England was split, 2024</p>
+            </figcaption>
+            <div class="stack" role="img" aria-label="Local government procurement spend, England, 2024: 23% went directly to local SMEs, 12% to SMEs based elsewhere, and 65% to other suppliers.">
+              <span class="seg seg-local" style="--v:23%"></span><span class="seg seg-nonlocal" style="--v:12%"></span><span class="seg seg-other" style="--v:65%"></span>
+            </div>
+            <ul class="legend" role="list">
+              <li><span class="key seg-local" aria-hidden="true"></span><strong>23%</strong> directly with local SMEs (£18.4bn)</li>
+              <li><span class="key seg-nonlocal" aria-hidden="true"></span><strong>12%</strong> with SMEs based elsewhere (£9.7bn)</li>
+              <li><span class="key seg-other" aria-hidden="true"></span><strong>65%</strong> with all other suppliers</li>
+            </ul>
+            <p class="source">Source: <a href="https://www.britishchambers.org.uk/wp-content/uploads/2025/05/BCC-Tussell-AutogenAI-SME-PROCUREMENT-TRACKER-2025.pdf">British Chambers of Commerce &amp; Tussell, SME Procurement Tracker 2025 (PDF)</a> (2024 figures)</p>
+          </figure>
+        </div>
+
+        <p class="numbers-foot">Latest update: in 2025, local government's share was 34% (£29.1bn), and 21% of all direct public sector procurement spend in England went to SMEs, the highest share in six years. <span class="source-inline">Source: <a href="https://www.britishchambers.org.uk/wp-content/uploads/2026/05/Tussell-BCC-SME-Procurement-Tracker-2026-FINAL-pdf.pdf">BCC &amp; Tussell, SME Procurement Tracker 2026 (PDF)</a> (2025 figures).</span></p>
+      </div>
+    </section>
+
+    <section aria-labelledby="who-title">
+      <div class="wrap">
+        <h2 id="who-title">Who we work with</h2>
+        <p class="section-intro">Owners and directors of small and mid-sized contracting firms, including many who have never bid for public work before.</p>
+        <div class="two-col">
+          <div>
+            <h3>Sectors</h3>
+            <ul class="icon-list" role="list">
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-spray"/></svg></span>Commercial cleaning</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-leaf"/></svg></span>Grounds maintenance and landscaping</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-wrench"/></svg></span>Property maintenance</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-brick"/></svg></span>Minor construction and refurbishment</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-building"/></svg></span>Facilities management</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Regions</h3>
+            <ul class="icon-list regions" role="list">
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>North Yorkshire</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>West Yorkshire</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>South Yorkshire</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>East Yorkshire and the Humber</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>North East (Tyneside, Teesside, County Durham, Northumberland)</li>
+              <li><span class="icon-sm" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>East Midlands</li>
+              <li class="muted-item"><span class="icon-sm" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>Other areas: get in touch to check</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section-soft" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <h2 id="faq-title">Common questions</h2>
+        <details>
+          <summary>Do I need experience of public contracts?</summary>
+          <div class="answer">
+            <p>No. Many of the firms we speak to have never bid for public work. We'll explain what's involved in plain terms and help you judge whether an opportunity is realistic for your business.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What does the free suitability check involve?</summary>
+          <div class="answer">
+            <p>You send us a specific opportunity. We take a brief look at what the buyer wants, what they're asking bidders to provide and how it fits your business, then give you an honest view on whether it's worth bidding for. It's a quick initial check, not a full bid, and there's no obligation.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How are fees set?</summary>
+          <div class="answer">
+            <p>Bid preparation is charged at a fixed fee, agreed with you before any work starts. Every tender is different, so we quote per opportunity based on what's involved. The tender alert and the initial suitability check are free.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Can you guarantee we'll win?</summary>
+          <div class="answer">
+            <p>No one honestly can. Buyers make the decision. What we can do is help you pick opportunities that suit you and put forward a clear, complete bid.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How do I get started?</summary>
+          <div class="answer">
+            <p>Email <a href="mailto:hello@tendderr.com">hello@tendderr.com</a> with a line or two about what your business does and where you work. Mark will get back to you.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact-band" aria-labelledby="contact-title">
+      <div class="wrap narrow contact-inner">
+        <span class="contact-icon" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>
+        <div>
+          <h2 id="contact-title">Start with a free tender alert</h2>
+          <p>Email Mark Hutchinson at <a href="mailto:hello@tendderr.com">hello@tendderr.com</a>. Tell us what you do and where you work, and we'll take it from there.</p>
+          <div class="cta-row">
+            <a class="btn" href="mailto:hello@tendderr.com">Email hello@tendderr.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Tendderr</strong> is a trading name of Mark Hutchinson, a sole trader.</p>
+        <p>Business address: Ground Floor, Radley House, Richardshaw Road, Leeds, LS28 6LE, United Kingdom</p>
+        <p>Contact: Mark Hutchinson, <a href="mailto:hello@tendderr.com">hello@tendderr.com</a></p>
+      </div>
+      <div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="privacy.html">Privacy notice</a>
+          <a href="mailto:hello@tendderr.com">Contact</a>
+        </nav>
+        <p class="footer-meta">This site uses no cookies and no tracking.</p>
+        <p>&copy; 2026 Tendderr</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
