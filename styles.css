@@ -214,8 +214,9 @@ section { padding: 3.25rem 0; }
 .collage-grid .tile { position: relative; overflow: hidden; border-radius: var(--radius); background: #dfe6d8; min-width: 0; }
 .collage-grid .t-big { grid-column: span 2; grid-row: span 2; }
 .collage-grid .tile:last-child { grid-column: span 2; }
-.collage-grid picture, .collage-grid img { display: block; width: 100%; height: 100%; }
-.collage-grid img { object-fit: cover; }
+.collage-grid picture { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.collage-grid img { position: absolute; top: 0; left: 0; display: block; width: 100%; height: 100%; max-width: none; object-fit: cover; }
+.collage-grid .tile-label { z-index: 1; }
 .tile-label {
   position: absolute; left: .5rem; bottom: .5rem; max-width: calc(100% - 1rem);
   background: rgba(20, 40, 75, .88); color: #fff; font-size: .78rem; font-weight: 700;
