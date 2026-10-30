@@ -1,0 +1,48 @@
+# Tendderr
+
+> Tendderr helps small and mid-sized contractors find suitable public-sector contracts and prepare tenders, in England, Wales and Northern Ireland, plus Irish eTenders support. We don't cover Scotland. Sectors: commercial cleaning, grounds maintenance, property maintenance, minor construction and refurbishment, and facilities management. Fixed fees, published up front, no commission and no win fee.
+
+Key facts:
+- Business: Tendderr is a trading name of a sole trader based in Leeds, West Yorkshire, UK. Not VAT registered.
+- Contact: phone 0333 339 7931 (+44 333 339 7931), answered by a real person; email hello@tendderr.com; website https://tendderr.com/
+- Prices (GBP, fixed fees):
+  - Tender alerts and suitability check: free
+  - DPS or dynamic market application: from £295
+  - Full framework application: from £495
+  - Bid-ready pack (Central Digital Platform registration done with you, six core policies, one-page capability statement): £195, credited against a later bid pack
+  - Bid preparation (bid pack): fixed fee quoted per tender before work starts
+  - Lost-bid review and re-bid plan: £125 (free for Tendderr's own bid clients)
+  - Social value plan: £145 as an add-on, £245 standalone
+  - Subcontracting route pack: £195
+- Guides cite GOV.UK and official portals and were last checked 30 October 2026. They're general information, not legal advice.
+
+## Services
+- [Free Public Sector Tender Alerts for Contractors](https://tendderr.com/services/tender-alerts.html): Free public-sector tender alerts matched by a person to your trade and area, plus a free suitability check on any tender. England, Wales and NI.
+- [Framework and DPS Application Help, from £295](https://tendderr.com/services/framework-dps-applications.html): Help getting onto public-sector frameworks, DPSs and dynamic markets: from £295 for a DPS or dynamic market, from £495 for a full framework. Fixed fee.
+- [Bid-Ready Pack: CDP Registration and Tender Policies, £195](https://tendderr.com/services/bid-ready-pack.html): Bid-ready pack, £195: Central Digital Platform registration done with you on a call, six core policies and a one-page capability statement.
+- [Bid Writing for Public Sector Tenders, Fixed Fee](https://tendderr.com/services/bid-preparation.html): Fixed-fee bid writing for public-sector tenders: we prepare your submission with you, quoted per tender before work starts. No commission, no win fee.
+- [Lost Tender Review and Re-Bid Plan, £125](https://tendderr.com/services/lost-bid-review.html): Lost a tender? A plain-English review of your assessment summary and a re-bid plan for next time. £125, free for our own bid clients.
+- [Social Value Plan for Tenders, from £145](https://tendderr.com/services/social-value-plan.html): Social value commitments written for your tender, with numbers, owners and reporting dates you can deliver. £145 as an add-on, £245 standalone.
+- [Subcontracting Route Pack: Supply Chain Registration, £195](https://tendderr.com/services/subcontracting-route-pack.html): Too small to bid direct? Find the main contractors winning public work near you and get onto their supply chains. Subcontracting route pack, £195.
+- [Tender Writing and Bid Support Prices](https://tendderr.com/services/): Tendderr prices: free tender alerts and checks, DPS applications from £295, frameworks from £495, £195 bid-ready pack. Fixed fees, no commission.
+
+## Sectors
+- [Cleaning Tenders and Public Sector Cleaning Contracts](https://tendderr.com/sectors/commercial-cleaning.html): Cleaning tenders from councils, schools, NHS trusts and housing associations in England, Wales and NI. Free tender alerts, fixed-fee bid help, no win fee.
+- [Grounds Maintenance Tenders and Landscaping Contracts](https://tendderr.com/sectors/grounds-maintenance.html): Grounds maintenance and landscaping tenders from councils, schools and housing associations. Free tender alerts, fixed-fee bid help, no win fee.
+- [Property Maintenance Tenders: Repairs and Voids Contracts](https://tendderr.com/sectors/property-maintenance.html): Property maintenance, repairs and voids tenders from housing associations, councils and schools. Free tender alerts, fixed-fee bid help, no win fee.
+- [Construction Tenders for Small Builders and Refurbishment](https://tendderr.com/sectors/minor-construction.html): Construction and refurbishment tenders for small builders: councils, schools, housing associations. Free tender alerts, fixed-fee bid help, no win fee.
+- [Facilities Management Tenders: Hard and Soft FM Contracts](https://tendderr.com/sectors/facilities-management.html): Hard and soft FM tenders from NHS trusts, universities, councils and schools. Free tender alerts, fixed-fee bid help, no commission and no win fee.
+- [Public Sector Tenders by Trade: Sectors We Cover](https://tendderr.com/sectors/): Public-sector tenders for cleaning, grounds maintenance, property maintenance, minor construction and FM contractors. Free alerts, fixed fees, no win fee.
+
+## Guides
+- [Procurement Act 2023 Explained for Small Suppliers](https://tendderr.com/guides/procurement-act-2023.html): Procurement Act 2023 in plain English for small suppliers: 2026 thresholds, below-threshold rules, assessment summaries, standstill and payment. GOV.UK sourced.
+- [How to Register on the Central Digital Platform](https://tendderr.com/guides/central-digital-platform-registration.html): Register free on the Central Digital Platform (Find a Tender) in three steps, get your unique identifier (PPON) and know what to have ready. GOV.UK sourced.
+- [Frameworks, DPS and Dynamic Markets Explained](https://tendderr.com/guides/frameworks-dps-dynamic-markets.html): How frameworks, open frameworks, DPSs and dynamic markets work under the Procurement Act 2023: terms, reopening and fees. Sourced from GOV.UK.
+- [Social Value in Public Sector Tenders: PPN 002 and PPN 026](https://tendderr.com/guides/social-value-in-tenders.html): Social value in public tenders: the 10% minimum weighting under PPN 002, the PPN 026 model from 1 January 2027, and commitments you can deliver.
+- [Where to Find Public Sector Tenders (UK and NI)](https://tendderr.com/guides/find-public-sector-tenders.html): Free official portals for public-sector tenders: Find a Tender, Contracts Finder, Sell2Wales, eTendersNI, YORtender and Irish eTenders. Checked October 2026.
+- [Public Sector Tendering Guides for Small Contractors](https://tendderr.com/guides/): Free guides for small contractors: Procurement Act 2023, CDP registration, frameworks and dynamic markets, social value, and where to find tenders.
+
+## Optional
+- [Home](https://tendderr.com/): overview, prices, how it works and FAQs
+- [Full text for AI assistants](https://tendderr.com/llms-full.txt): plain-text copy of every page
+- [Privacy notice](https://tendderr.com/privacy.html)

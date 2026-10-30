@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tendderr.com/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/tender-alerts.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/framework-dps-applications.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/bid-ready-pack.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/bid-preparation.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/lost-bid-review.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/social-value-plan.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/subcontracting-route-pack.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/services/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/sectors/commercial-cleaning.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/sectors/grounds-maintenance.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/sectors/property-maintenance.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/sectors/minor-construction.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/sectors/facilities-management.html</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/sectors/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://tendderr.com/privacy.html</loc><lastmod>2026-10-29</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://tendderr.com/</loc><lastmod>2026-10-30</lastmod><priority>1.0</priority></url>
+  <url><loc>https://tendderr.com/services/tender-alerts.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/services/framework-dps-applications.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/services/bid-ready-pack.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/services/bid-preparation.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/services/lost-bid-review.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/services/social-value-plan.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/services/subcontracting-route-pack.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/services/</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/sectors/commercial-cleaning.html</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority><image:image><image:loc>https://tendderr.com/img/cleaning-corridor.jpg</image:loc></image:image></url>
+  <url><loc>https://tendderr.com/sectors/grounds-maintenance.html</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority><image:image><image:loc>https://tendderr.com/img/grounds-hedge.jpg</image:loc></image:image></url>
+  <url><loc>https://tendderr.com/sectors/property-maintenance.html</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority><image:image><image:loc>https://tendderr.com/img/property-maintenance.jpg</image:loc></image:image></url>
+  <url><loc>https://tendderr.com/sectors/minor-construction.html</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority><image:image><image:loc>https://tendderr.com/img/construction-bricklayer.jpg</image:loc></image:image></url>
+  <url><loc>https://tendderr.com/sectors/facilities-management.html</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority><image:image><image:loc>https://tendderr.com/img/fm-engineer.jpg</image:loc></image:image></url>
+  <url><loc>https://tendderr.com/sectors/</loc><lastmod>2026-10-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://tendderr.com/guides/procurement-act-2023.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/guides/central-digital-platform-registration.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/guides/frameworks-dps-dynamic-markets.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/guides/social-value-in-tenders.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/guides/find-public-sector-tenders.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/guides/</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://tendderr.com/privacy.html</loc><lastmod>2026-10-30</lastmod><priority>0.3</priority></url>
 </urlset>
