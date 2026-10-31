@@ -10,4 +10,6 @@ All photos are from Pexels and used under the Pexels Licence (https://www.pexels
 | grounds-hedge.jpg / .webp | https://www.pexels.com/photo/38936338/ | Magda Ehlers |
 | construction-bricklayer.jpg / .webp | https://www.pexels.com/photo/19688828/ | GOWTHAM AGM |
 | cleaning-windows.jpg / .webp | https://www.pexels.com/photo/31983866/ | Jay Brand |
+| pest-control.jpg / .webp (and -480) | https://www.pexels.com/photo/4176608/ | Michelangelo Buonarroti |
+| trades-electrician.jpg / .webp (and -480) | https://www.pexels.com/photo/4981802/ | Antoni Shkraba |
 | og-image.jpg | Cropped from cleaning-corridor (34516670) | Caleb Oquendo |
