@@ -1,6 +1,6 @@
 # Tendderr
 
-> Tendderr helps small and mid-sized contractors find suitable public-sector contracts and prepare tenders, in England, Wales and Northern Ireland, plus Irish eTenders support. We don't cover Scotland. Sectors: commercial cleaning, grounds maintenance, property maintenance, minor construction and refurbishment, trades and repairs (electrical, plumbing, heating, roofing), pest control, and facilities management. Fixed fees, published up front, no commission: clients keep 100% of what they win.
+> Tendderr helps small and mid-sized contractors find suitable public-sector contracts and prepare tenders, in England, Wales and Northern Ireland, plus Irish eTenders support. We don't cover Scotland. Sectors: commercial cleaning, grounds maintenance, property maintenance, minor construction and refurbishment, trades and repairs (electrical, plumbing, heating, roofing), pest control, security and CCTV, waste and recycling, fire safety, gas and electrical compliance, IT support and telecoms, and facilities management. Fixed fees, published up front, no commission: clients keep 100% of what they win.
 
 Key facts:
 - Business: Tendderr is a trading name of a sole trader based in Leeds, West Yorkshire, UK. Not VAT registered.
@@ -40,8 +40,12 @@ Key facts:
 - [Construction Tenders for Small Builders and Refurbishment](https://tendderr.com/sectors/minor-construction.html): Construction and refurbishment tenders for small builders: councils, schools, housing associations. Free tender alerts, fixed-fee bid help, no win fee.
 - [Trades Tenders: Electrical, Plumbing, Heating and Roofing](https://tendderr.com/sectors/trades.html): Electrical, plumbing, heating and roofing tenders from housing associations, councils and schools. Free tender alerts, fixed-fee bid help, no commission.
 - [Pest Control Tenders and Public Sector Contracts](https://tendderr.com/sectors/pest-control.html): Pest control tenders from councils, housing associations, schools and NHS trusts in England, Wales and NI. Free tender alerts, fixed-fee bid help, no commission.
+- [Security Guarding and CCTV Tenders](https://tendderr.com/sectors/security.html): Security guarding, key holding and CCTV monitoring tenders in England, Wales and NI: buyers, lots, SIA and NSI requirements. Free alerts, no commission.
+- [Waste Collection and Recycling Tenders](https://tendderr.com/sectors/waste.html): Waste collection and recycling tenders in England, Wales and NI: buyers, lots, carrier registration and permits. Free alerts, fixed fees, no commission.
+- [Fire Safety, Gas and Electrical Compliance Tenders](https://tendderr.com/sectors/fire-electrical.html): Fire safety, gas, heating and electrical compliance tenders: buyers, lots, Gas Safe, NICEIC, NAPIT and BAFE. Free alerts, fixed fees, no commission.
+- [IT Support and Telecoms Tenders for Small Firms](https://tendderr.com/sectors/it-support.html): IT support and telecoms tenders from schools, councils and NHS bodies: lots, Cyber Essentials and PPN 014. Free alerts, fixed fees, no commission.
 - [Facilities Management Tenders: Hard and Soft FM Contracts](https://tendderr.com/sectors/facilities-management.html): Hard and soft FM tenders from NHS trusts, universities, councils and schools. Free tender alerts, fixed-fee bid help, no commission and no win fee.
-- [Public Sector Tenders by Trade: Sectors We Cover](https://tendderr.com/sectors/): Public-sector tenders for cleaning, grounds, property maintenance, construction, trades, pest control and FM contractors. Free alerts, fixed fees, no commission.
+- [Public Sector Tenders by Trade: Sectors We Cover](https://tendderr.com/sectors/): Public-sector tenders for cleaning, grounds, maintenance, construction, trades, pest control, security, waste, compliance, IT and FM firms. Free alerts, no commission.
 
 ## Guides
 - [Procurement Act 2023 Explained for Small Suppliers](https://tendderr.com/guides/procurement-act-2023.html): Procurement Act 2023 in plain English for small suppliers: 2026 thresholds, below-threshold rules, assessment summaries, standstill and payment. GOV.UK sourced.
