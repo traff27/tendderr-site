@@ -4397,9 +4397,9 @@ This website does not use cookies, analytics or tracking of any kind, and has no
 
 ### Chat assistant
 
-Our website has an optional ‘Ask us’ assistant that answers questions about our service by text or voice. It is an automated assistant, not a person, and it can make mistakes, so please check anything important with us by email.
+Our website has an optional ‘Ask us’ assistant that answers questions about our service by text. It is an automated assistant, not a person, and it can make mistakes, so please check anything important with us by email.
 
-The assistant is provided by ElevenLabs, which processes your messages for us. If you use it, we receive a written record (transcript) of the conversation. We don't keep voice recordings. We keep transcripts for up to 12 months and then delete them. We use them only to answer your questions and to improve the assistant.
+The assistant is provided by ElevenLabs, which processes your messages for us. If you use it, we receive a written record (transcript) of the conversation. We keep transcripts for up to 12 months and then delete them. We use them only to answer your questions and to improve the assistant.
 
 Please don't share sensitive personal information in the chat. If you'd like us to follow up, email hello@tendderr.com instead. To show the chat button, your browser loads the assistant from ElevenLabs and the unpkg content network when you visit a page, which means they will see your IP address.
 

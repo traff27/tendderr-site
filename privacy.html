@@ -180,8 +180,8 @@
       <p>This website does not use cookies, analytics or tracking of any kind, and has no forms that send information to us. Our free tools (the readiness checker, timeline calculator and social value checklist) run entirely in your browser: nothing you enter in them is sent to us or stored. If you email us, we handle your message as described above.</p>
 
       <h3 id="chat-assistant">Chat assistant</h3>
-      <p>Our website has an optional &lsquo;Ask us&rsquo; assistant that answers questions about our service by text or voice. It is an automated assistant, not a person, and it can make mistakes, so please check anything important with us by email.</p>
-      <p>The assistant is provided by ElevenLabs, which processes your messages for us. If you use it, we receive a written record (transcript) of the conversation. We don't keep voice recordings. We keep transcripts for up to 12 months and then delete them. We use them only to answer your questions and to improve the assistant.</p>
+      <p>Our website has an optional &lsquo;Ask us&rsquo; assistant that answers questions about our service by text. It is an automated assistant, not a person, and it can make mistakes, so please check anything important with us by email.</p>
+      <p>The assistant is provided by ElevenLabs, which processes your messages for us. If you use it, we receive a written record (transcript) of the conversation. We keep transcripts for up to 12 months and then delete them. We use them only to answer your questions and to improve the assistant.</p>
       <p>Please don't share sensitive personal information in the chat. If you'd like us to follow up, email <a href="mailto:hello@tendderr.com">hello@tendderr.com</a> instead. To show the chat button, your browser loads the assistant from ElevenLabs and the unpkg content network when you visit a page, which means they will see your IP address.</p>
 
       <h2>Changes to this notice</h2>
@@ -208,12 +208,11 @@
     </div>
   </footer>
   <!-- Tendderr "Ask us" chat assistant (ElevenLabs Conversational AI) -->
-  <button type="button" class="tdr-chat-launcher" id="tdr-chat-launcher" aria-haspopup="dialog" aria-expanded="false" aria-label="Chat with us: type or talk to our AI assistant">
+  <button type="button" class="tdr-chat-launcher" id="tdr-chat-launcher" aria-haspopup="dialog" aria-expanded="false" aria-label="Chat with us: type a message to our AI assistant">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></svg>
-    <span>Chat with us<span class="tdr-sub">: type or talk</span></span>
+    <span>Chat with us<span class="tdr-sub">: type a message</span></span>
   </button>
-  <elevenlabs-convai agent-id="agent_0401m5x33evqe7daveh1ha801kn9">
-    <svg slot="icon-phone" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+  <elevenlabs-convai agent-id="agent_0401m5x33evqe7daveh1ha801kn9" override-text-only="true">
   </elevenlabs-convai>
   <script>
   (function () {
